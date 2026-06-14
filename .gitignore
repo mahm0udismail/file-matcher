@@ -1,0 +1,27 @@
+# Maven builds
+target/
+*.pom.properties
+*.jar
+*.war
+
+# IDEs and Editors
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs and OS temp files
+*.log
+.DS_Store
+
+# Ignore Maven Wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+.gitattributes
+
+
+# Ignore local configuration overrides
+src/main/resources/application.properties

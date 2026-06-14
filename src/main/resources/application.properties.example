@@ -1,0 +1,8 @@
+# Spring Application Name
+spring.application.name=file-matcher
+
+# The absolute or relative path to the reference file you want to compare against
+filematcher.reference-file=/path/to/fileA.txt
+
+# The directory containing the pool of files to be matched
+filematcher.pool-directory=/path/to/pool/
